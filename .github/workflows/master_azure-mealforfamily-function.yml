@@ -39,4 +39,4 @@ jobs:
           app-name: 'azure-mealforfamily-function'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_848884F7EF644792AABF34383E04A742 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AA3D537A64674C39A74DD4150150E3BC }}
